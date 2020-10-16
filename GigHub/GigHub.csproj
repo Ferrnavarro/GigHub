@@ -190,6 +190,14 @@
     <Compile Include="Migrations\202010142028428_PopulateGenresTable.Designer.cs">
       <DependentUpon>202010142028428_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010161559270_AddForeignJeyPropertiesTogig.cs" />
+    <Compile Include="Migrations\202010161559270_AddForeignJeyPropertiesTogig.Designer.cs">
+      <DependentUpon>202010161559270_AddForeignJeyPropertiesTogig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010161604441_AddForeignJeyPropertiesTogigFix.cs" />
+    <Compile Include="Migrations\202010161604441_AddForeignJeyPropertiesTogigFix.Designer.cs">
+      <DependentUpon>202010161604441_AddForeignJeyPropertiesTogigFix.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -287,6 +295,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010142028428_PopulateGenresTable.resx">
       <DependentUpon>202010142028428_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010161559270_AddForeignJeyPropertiesTogig.resx">
+      <DependentUpon>202010161559270_AddForeignJeyPropertiesTogig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010161604441_AddForeignJeyPropertiesTogigFix.resx">
+      <DependentUpon>202010161604441_AddForeignJeyPropertiesTogigFix.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
