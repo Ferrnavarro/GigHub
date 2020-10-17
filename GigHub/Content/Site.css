@@ -60,8 +60,7 @@ body {
 }
 
 .form-control {
-    font-size: 17px;
-    padding: 20px 15px;
+    font-size: 17px;  
     border-radius: 9px;
 }
 
@@ -69,7 +68,6 @@ body {
     border-color: #2196f3;
     box-shadow: none;
     -webkit-box-shadow: none;
-    
 }
 
 .btn {
